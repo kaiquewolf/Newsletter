@@ -5,6 +5,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0px;
     padding: 0px;
     max-width: 1700px;
+    font-family: Helvetica, serif;
+    color: #888888;
 }
 
 @font-face {
