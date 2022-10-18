@@ -9,11 +9,6 @@ export const GlobalStyle = createGlobalStyle`
 
 @font-face {
     font-family: 'Helvetica';
-    src: local('FreeSans'), url(../fonts/Free-Sans/FreeSans.ttf) format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Helvetica-bold';
-    src: local('FreeSansBold'), url(../fonts/Free-Sans/FreeSansBold.ttf) format('truetype');
-  }
-`
+    src: local('FreeSans'), url('../fonts/Free-Sans/FreeSans.ttf') format('truetype'), url('../fonts/Free-Sans/FreeSansBold.ttf') format ('truetype'); 
+  };
+  `

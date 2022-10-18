@@ -1,14 +1,19 @@
 import styled from "styled-components"
+import wave from "../../assets/wave.svg"
 
 
 export const Headers = styled.header`
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-top: 69px;
     align-items: center;
     flex-direction: column;
-    background-color: #707070;
-    height: 25vw;
-    border: 1px solid #707070;
+    background-image: url('${ wave }');
+    max-width: 100%;
+    height: 418px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
 `
 
 export const H2 = styled.p`
@@ -21,6 +26,7 @@ export const H1 = styled.h1`
 font-family: Helvetica-bold, serif;
 color: #FFFFFF;
 font-size: 40px;
+padding-bottom: 24px;
 `
 
 export const P = styled.p`
